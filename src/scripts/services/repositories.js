@@ -5,6 +5,6 @@ async function userRepositories(userName){
     return await response.json();
 }
 
-console.log(await userRepositories('samueltonao'));
+
 
 export { userRepositories }
